@@ -1,11 +1,11 @@
 package br.pro.hashi.ensino.desagil.aps.model;
 
 public class DeMux extends Gate {
-    NandGate nandLeft;
-    NandGate nandCenterTop;
-    NandGate nandCenterBottom;
-    NandGate nandRightTop;
-    NandGate nandRightBottom;
+    private final NandGate nandLeft;
+    private final NandGate nandCenterTop;
+    private final NandGate nandCenterBottom;
+    private final NandGate nandRightTop;
+    private final NandGate nandRightBottom;
 
 
     public DeMux() {

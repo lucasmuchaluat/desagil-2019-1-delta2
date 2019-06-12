@@ -1,7 +1,5 @@
 package br.pro.hashi.ensino.desagil.aps.model;
 
-import br.pro.hashi.ensino.desagil.aps.view.View;
-
 public class AndGate extends Gate {
     NandGate nandLeft;
     NandGate nandRight;
